@@ -3,10 +3,12 @@
 This is two simple python solutions to the NP-complete problem, The Travelling Salesman.
 
 simpleGreedy.py is a solution that starts from city 0 and visits the nearest unvisited city until all cities have been visited.
+
 Example usage:      
 `python simpleGreedy.py tsp_example_1.txt`  
 
  randomStartingPlaces.py does the same thing, but instead of starting from city 0 is runs 40 randomly chosen starting cities and keeps the shortest path.    
+               
  Example usage:      
  `python randomStartingPlaces.py tsp_example_1.txt`
 
